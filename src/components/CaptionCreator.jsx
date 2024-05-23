@@ -71,7 +71,7 @@ const CaptionCreator = () => {
     const downloadLink = URL.createObjectURL(modifiedCaptionBlob);
     const a = document.createElement("a");
     a.href = downloadLink;
-    a.download = "en.vtt";
+    a.download = "captions.vtt";
     a.click();
   };
   return (
